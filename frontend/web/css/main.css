@@ -1,0 +1,81 @@
+.flex {
+  display: flex;
+}
+.column-direction {
+  flex-direction: column;
+}
+.profile {
+  word-wrap: break-word;
+  margin-top: 0.4%;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+}
+.main-info {
+  align-items: center;
+}
+.profile-name {
+  flex-grow: 1;
+}
+.profile-family {
+  flex-grow: 20;
+}
+.profile-img {
+  width: 40%;
+  flex-grow: 5;
+}
+#profile-img {
+  width: 80%;
+}
+.profile-data {
+  flex-grow: 3;
+}
+.main-info, .second-info {
+  width: 25%;
+}
+.second-info {
+  margin-top: 0.5%;
+  text-align: justify;
+}
+.profile-birthday, .profile-statustext, .un-time {
+  color: #757575;
+}
+.profile-statustext {
+  width: 100%
+}
+.usernotices {
+  margin-top: 2%;
+}
+.post {
+  margin-top: 2%;
+}
+.un-post {
+}
+textarea {
+  resize: none;
+}
+#userpost-text {
+  height: 50px;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out
+}
+#userpost-text:focus {
+  height: 150px;
+  border-color: #777;
+  color: #000;
+  background: #fff;
+  outline: 0
+}
+.un-posts {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.un-comments {
+  margin-left: 5%;
+}
